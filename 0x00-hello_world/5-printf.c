@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - this is the function that runs printin the text specified
- * Return: 0 is returned if function is succesful 
+ * Return: 0 is returned if function is succesful
  */
 int main(void)
 {
