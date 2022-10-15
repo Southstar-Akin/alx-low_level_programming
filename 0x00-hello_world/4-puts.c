@@ -2,7 +2,7 @@
 
 /**
  * main - prints the "line" varible to standard output
- * Return - returns 0 if succesful
+ * Return: 0 is return if succesful
  */
 int main(void)
 {
