@@ -1,6 +1,8 @@
 #include<stdio.h>
+
 /**
  *main - prints the "line" varible to standard output
+ *Return - returns 0 if succesful
  */
 int main(void)
 {
