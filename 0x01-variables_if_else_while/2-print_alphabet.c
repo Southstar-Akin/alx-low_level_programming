@@ -7,8 +7,8 @@
 
 int main (void)
 {
-const char alpha[] = "a,b,c,d,e,f,g,h,i,j,k,l,m,n";
-const char alphb[] = "o,p,q,r,s,t,u,v,w,x,y,z";
+const char alpha[] = "abcdefghijklmn";
+const char alphb[] = "opqrstuvwxyz";
 int a;
 for (a = 0;a < 26; a++)
 {
