@@ -7,11 +7,13 @@
 
 int main(void)
 {
-char alpha[] = "abcdefghijklmnopqrstuvwxyz\n";
+char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 int a;
+int b[] = "\n";
 for (a = 0; a < 26; a++)
 {
 putchar(alpha[a]);
 }
+putchar(b);
 return (0);
 }
