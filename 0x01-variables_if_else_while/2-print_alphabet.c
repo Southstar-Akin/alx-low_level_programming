@@ -14,6 +14,6 @@ for (a = 0; a < 27; a++)
 {
 putchar(alpha[a]);
 }
-putchar(b);
+putchar(b[0]);
 return (0);
 }
