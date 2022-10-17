@@ -14,11 +14,11 @@ for (a = 0;a < 26; a++)
 {
 if (a < 14)
 {
-putchar("%c", alpha[a]);
+putchar(alpha[a]);
 }
 else
 {
-putchar("%c", alphb[a]);
+putchar(alphb[a]);
 }
 }
 return (0);
