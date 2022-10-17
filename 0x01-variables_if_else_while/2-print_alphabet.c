@@ -8,7 +8,7 @@
 int main (void)
 {
 const char alpha[] = "abcdefghijklmn";
-const char alphb[] = "opqrstuvwxyz";
+const char alp[] = "opqrstuvwxyz";
 int a;
 for (a = 0;a < 26; a++)
 {
@@ -18,7 +18,8 @@ putchar(alpha[a]);
 }
 else
 {
-putchar(alphb[a]);
+a = 0;
+putchar(alp[a]);
 }
 }
 return (0);
