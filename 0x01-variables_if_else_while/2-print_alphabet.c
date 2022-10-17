@@ -7,13 +7,12 @@
 
 int main(void)
 {
-char alpha[] = "abcdefghijklmnopqrstuvwxyz\\";
+char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 int a;
-char b[] = "n";
 for (a = 0; a < 27; a++)
 {
 putchar(alpha[a]);
 }
-putchar(b[0]);
+putchar('\n');
 return (0);
 }
