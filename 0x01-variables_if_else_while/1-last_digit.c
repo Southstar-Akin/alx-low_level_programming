@@ -10,19 +10,19 @@ int main(void)
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-int lDig = n % 10;
+int lig = n % 10;
 char text[] = "Last digit of";
-if (lDig > 5)
+if (lig > 5)
 {
-printf("%s %d is %d and is greater than 5\n", text, n, lDig);
+printf("%s %d is %d and is greater than 5\n", text, n, lig);
 }
-else if (lDig == 0)
+else if (lig == 0)
 {
-printf("%s %d is %d and is 0\n", text, n, lDig);
+printf("%s %d is %d and is 0\n", text, n, lig);
 }
-else if (lDig > 0 && lDig < 6)
+else if (lig > 0 && lig < 6)
 {
-printf("%s %d is %d and is less than 6 and not 0\n", text, n, lDig);
+printf("%s %d is %d and is less than 6 and not 0\n", text, n, lig);
 }     
 return (0);
 }
