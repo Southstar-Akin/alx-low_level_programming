@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** main - more headers goes there
+/**
+ * main - more headers goes there
  * make nobidy stress me
  * Return: this is somthing
  */
@@ -21,7 +22,7 @@ else if (lig == 0)
 {
 printf("%s %d is %d and is 0\n", text, n, lig);
 }
-else if (lig > 0 && lig < 6)
+else if (lig != 0 && lig < 6)
 {
 printf("%s %d is %d and is less than 6 and not 0\n", text, n, lig);
 }     
