@@ -25,6 +25,6 @@ printf("%s %d is %d and is 0\n", text, n, lig);
 else if (lig != 0 && lig < 6)
 {
 printf("%s %d is %d and is less than 6 and not 0\n", text, n, lig);
-}     
+}
 return (0);
 }
