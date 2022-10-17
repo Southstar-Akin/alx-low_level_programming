@@ -7,23 +7,11 @@
 
 int main(void)
 {
-const char alpha[] = "abcdefghijklmn";
-const char alp[] = "opqrstuvwxyz";
+char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 int a;
-int b;
 for (a = 0; a < 26; a++)
 {
-if (a < 14)
-{
 putchar(alpha[a]);
-}
-else
-{
-for (b = 0; b < 12; b++)
-{
-putchar(alp[b]);
-}
-}
 }
 return (0);
 }
