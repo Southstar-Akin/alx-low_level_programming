@@ -10,6 +10,7 @@ int main(void)
 const char alpha[] = "abcdefghijklmn";
 const char alp[] = "opqrstuvwxyz";
 int a;
+int b;
 for (a = 0; a < 26; a++)
 {
 if (a < 14)
