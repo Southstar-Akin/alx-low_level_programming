@@ -1,0 +1,18 @@
+#include <stdio.h>
+/**
+ * main - who am i if not seen through your eyes 
+ * this is just a lyric from a song i jamming
+ * Return: 0 if successful
+ */
+int main(void)
+{
+int a = 0;
+while(a < 10)
+{
+putchar(a);
+a++;
+}
+putchar('\n');
+return (0);
+}
+	  
