@@ -10,16 +10,13 @@ int main(void)
 int d = '0';
 for (d = '0'; d <= '9'; d++)
 {
+putchar(d);
 if (d != '9')
 {
-putchar(d);
 putchar(',');
 putchar(' ');
 }
-else
-{
-putchar(d);
 }
-}
+putchar('\n');
 return (0);
 }
