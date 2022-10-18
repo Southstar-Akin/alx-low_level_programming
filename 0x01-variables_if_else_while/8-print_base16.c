@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-int C;
+int C = '0';
 char d;
-for (C = 0; C < 10; C++)
+for (C = '0'; C <= '9'; C++)
 {
 putchar(C);
 }
