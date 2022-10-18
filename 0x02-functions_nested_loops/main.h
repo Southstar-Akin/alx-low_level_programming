@@ -1,6 +1,6 @@
 void *line(void)
 {
   char l[] = "_putchar";
-  putchar(l);
+  printf(l);
   return (0);
 }
