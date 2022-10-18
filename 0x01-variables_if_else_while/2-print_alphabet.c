@@ -13,6 +13,6 @@ for (a = 0; a < 27; a++)
 {
 putchar(alpha[a]);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
