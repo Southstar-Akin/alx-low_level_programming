@@ -4,7 +4,7 @@ void *line(void)
   printf("%s", l);
   return (0);
 }
-void print_alphabet(void)
+void *print_alphabet(void)
 {
 int A;
 for (A = 'a'; A <= 'z'; A++)
