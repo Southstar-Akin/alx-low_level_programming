@@ -4,14 +4,12 @@
  * no even whine me
  * Return: returns 0 idf successful
  */
-
 int main(void)
 {
-char alpha[] = "abcdefghijklmnopqrstuvwxyz";
-int a;
-for (a = 0; a < 27; a++)
+char C;
+for (C = 'a'; C <= 'z'; C++)
 {
-putchar(alpha[a]);
+putchar(C);
 }
 putchar('\n');
 return (0);
