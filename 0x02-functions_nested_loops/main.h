@@ -1,6 +1,6 @@
 #include <stdio.h>
 void *line(void);
-void *print_alphabet(void)
+void *print_alph(void)
 {
 int A;
 for (A = 'a'; A <= 'z'; A++)
