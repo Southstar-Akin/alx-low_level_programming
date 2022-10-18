@@ -11,7 +11,7 @@ for (C = 'a'; C <= 'z'; C++)
 {
 if (C == 'q' || C == 'e')
 {
-return (1);
+continue;
 }
 else
 {
