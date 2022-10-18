@@ -7,6 +7,7 @@ for (A = 'a'; A <= 'z'; A++)
 {
 putchar(A);
 }
+return (0); 
 }
 
 
