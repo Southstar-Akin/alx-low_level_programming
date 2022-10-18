@@ -6,11 +6,8 @@
  */
 int main(void)
 {
-char C;
-for (C = 'z'; C >= 'a'; C--)
-{
+char C[] = '0123456789abcdef';
 putchar(C);
-}
 putchar('\n');
 return (0);
 }
