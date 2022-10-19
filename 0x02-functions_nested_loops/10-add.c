@@ -8,7 +8,7 @@
  */
 int add(int a, int b)
 {
-int result = a;
-printf("%2d", result);
+int result = a + b;
+_putchar(result);
 return (result);
 }
