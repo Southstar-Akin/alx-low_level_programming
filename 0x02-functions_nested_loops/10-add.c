@@ -8,7 +8,7 @@
  */
 int add(int a, int b)
 {
-int result = a + b;
+int result = 'a' + 'b';
 printf("%2d", result);
 return (result);
 }
