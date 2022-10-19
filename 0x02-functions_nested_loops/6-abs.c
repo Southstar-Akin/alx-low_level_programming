@@ -11,4 +11,3 @@ int _abs(int c)
 int result = abs(c);
 return (result);
 }
-  
