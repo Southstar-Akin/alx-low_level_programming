@@ -7,6 +7,7 @@
  */
 void before(void)
 {
+int x = 0;
 printf("%d", x * 0);
 printf(",");
 printf(" ");
@@ -39,6 +40,7 @@ printf("\n");
 }
 void normal(void)
 {
+int x = 0;
 printf("%2d", x * 0);
 printf(",");
 printf(" ");
@@ -76,11 +78,11 @@ while (x <= 9)
 {
 if (x < 3)
 {
-before()
+before();
 }
 else
 {
-normal()
+normal();
 }
 x++;
 }
