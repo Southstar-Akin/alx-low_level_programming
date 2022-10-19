@@ -14,6 +14,6 @@ if (c < 0)
 c = -c;
 }
 s = (c) % 10;
-putchar(s);
+putchar(s + '0');
 return (s);
 }
