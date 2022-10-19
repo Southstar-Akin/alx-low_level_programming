@@ -13,38 +13,34 @@ for (t = 0; t <= 9; t++)
 {
 while (x <= 9)
 {
-if (x < 0)
-{
-x = -x;
-}
-_putchar(x + '0');
+_putchar((t * 0) + '0');
 _putchar(',');
 _putchar(' ');
-_putchar((x * 1) + '0');
+_putchar((t * 1) + '0');
 _putchar(',');
 _putchar(' ');
-_putchar((x * 2) + '0');
+_putchar((t * 2) + '0');
 _putchar(',');
 _putchar(' ');
-_putchar((x * 3) + '0');
+_putchar((t * 3) + '0');
 _putchar(',');
 _putchar(' ');
-_putchar((x * 4) + '0');
+_putchar((t * 4) + '0');
 _putchar(',');
 _putchar(' ');
-_putchar((x * 5) + '0');
+_putchar((t * 5) + '0');
 _putchar(',');
 _putchar(' ');
-_putchar((x * 6) + '0');
+_putchar((t * 6) + '0');
 _putchar(',');
 _putchar(' ');
-_putchar((x * 7) + '0');
+_putchar((t * 7) + '0');
 _putchar(',');
 _putchar(' ');
-_putchar((x * 8) + '0');
+_putchar((t * 8) + '0');
 _putchar(',');
 _putchar(' ');
-_putchar((x * 9) + '0');
+_putchar((t * 9) + '0');
 x++;
 }
 printf("\n");
