@@ -1,4 +1,4 @@
-void _putchar(void)
+void charm(void)
 {
 printf("_putchar");
 }
