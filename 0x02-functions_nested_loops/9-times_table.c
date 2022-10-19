@@ -10,10 +10,10 @@ void times_table(void)
 int x = 0;
 while (x <= 9)
 {
-printf("%2d", x * 0);
+printf("%d", x * 0);
 printf(",");
 printf(" ");
-printf("%2d", x * 1);
+printf("%d", x * 1);
 printf(",");
 printf(" ");
 printf("%2d", x * 2);
