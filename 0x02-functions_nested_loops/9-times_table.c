@@ -7,37 +7,37 @@
  */
 void times_table(void)
 {
-int x = '0';
-while (x <= '9')
+int x = 0;
+while (x <= 9)
 {
-_putchar((x * 0) + '0');
+printf("%d", x * 0);
 _putchar(',');
 _putchar(' ');
-_putchar((x * 1) + '0');
+printf("%d", x * 1);
 _putchar(',');
 _putchar(' ');
-_putchar((x * 2) + '0');
+printf("%d", x * 2);
 _putchar(',');
 _putchar(' ');
-_putchar((x * 3) + '0');
+printf("%d", x * 3);
 _putchar(',');
 _putchar(' ');
-_putchar((x * 4) + '0');
+printf("%d", x * 4);
 _putchar(',');
 _putchar(' ');
-_putchar((x * 5) + '0');
+printf("%d", x * 5);
 _putchar(',');
 _putchar(' ');
-_putchar((x * 6) + '0');
+printf("%d", x * 6);
 _putchar(',');
 _putchar(' ');
-_putchar((x * 7) + '0');
+printf("%d", x * 7);
 _putchar(',');
 _putchar(' ');
-_putchar((x * 8) + '0');
+printf("%d", x * 8);
 _putchar(',');
 _putchar(' ');
-_putchar((x * 9) + '0');
+printf("%d", x * 9);
 _putchar('\n');
 x++;
 }
