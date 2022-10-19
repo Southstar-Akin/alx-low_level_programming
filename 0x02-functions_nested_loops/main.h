@@ -1,6 +1,3 @@
 int _putchar(char c);
-void charm(void)
-{
-printf("_putchar");
-}
+void charm(void);
 void print_alphabet(void);
