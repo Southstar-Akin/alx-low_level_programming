@@ -7,7 +7,7 @@
  */
 void times_table(void)
 {
-int x = '0';
+int x = 0;
 while (x <= '9')
 {
 printf("%d", x * 0);
@@ -37,8 +37,8 @@ printf(" ");
 printf("%d", x * 8);
 printf(",");
 printf(" ");
-printf("%d", x * 9);
-_putchar('\n');
+printf("%2d", x * 9);
+printf("\n");
 x++;
 }
 }
