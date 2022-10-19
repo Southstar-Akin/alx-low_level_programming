@@ -11,7 +11,7 @@ int b;
 int c;
 int d;
 for(a = 0; a <= 2; a++)
-while (a = 2)
+while (a == 2)
 {
 if (b <=4)
 {
