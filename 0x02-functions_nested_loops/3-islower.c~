@@ -1,0 +1,17 @@
+#include "main.h"
+/**
+ * _islower
+ */
+int _islower(int c)
+{
+int result;
+if (c == toupper(c))
+{
+result = '0';
+}
+else
+{
+result = '1';
+}
+return (result);
+}
