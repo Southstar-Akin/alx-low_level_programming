@@ -40,6 +40,7 @@ _putchar((t * 8) + '0');
 _putchar(',');
 _putchar(' ');
 _putchar((t * 9) + '0');
+x++;
 }
 _putchar('\n');
 }
