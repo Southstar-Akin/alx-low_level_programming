@@ -5,7 +5,8 @@
 int _islower(int c)
 {
 int result;
-if (islower(c) == "true")
+int v = islower(c);
+if (v == 0)
 {
 result = '0';
 }
