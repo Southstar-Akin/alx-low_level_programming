@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main - run the code
- * print_alphabet - prints the alphabets
- * Return: alwasy return 0
+ * print_alphabet - prints the alphabet
  */
 void print_alphabet(void)
 {
