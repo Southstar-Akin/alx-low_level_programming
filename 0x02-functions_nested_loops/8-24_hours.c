@@ -6,15 +6,15 @@
  */
 void jack_bauer(void)
 {
-int a = 0;
-int b = 0;
-int c = 0;
+int a;
+int b;
+int c;
 int d = 0;
-while(a <= 2)
+for(a = 0; a <= 2; a++)
 {
-while (b <= 3)
+for (b = 0; b <= 3; b++)
 {
-while (c <= 5)
+for (c = 0; c <= 5; c++)
 {
 while (d <= 9)
 {
@@ -26,10 +26,7 @@ _putchar(d + '0');
 _putchar('\n');
 d++;
 }
-c++;
 }
-b++;
 }
-a++;
 }
 }
