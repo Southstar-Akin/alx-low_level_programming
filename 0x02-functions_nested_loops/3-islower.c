@@ -2,6 +2,9 @@
 #include <ctype.h>
 /**
  * _islower - you know the vibes man
+ * @c: this returns nice things
+ * 
+ * Return: this retuns an interger 1/0
  */
 int _islower(int c)
 {
