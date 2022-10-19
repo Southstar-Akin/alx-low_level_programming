@@ -9,6 +9,6 @@
 int add(int a, int b)
 {
 int result = a + b;
-_putchar(result);
+printf("%2d", result);
 return (result);
 }
