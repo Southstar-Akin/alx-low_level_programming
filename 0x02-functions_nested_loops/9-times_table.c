@@ -13,7 +13,7 @@ while (x <= 9)
 printf("%d", x * 0);
 printf(",");
 printf(" ");
-printf("%d", x * 1);
+printf("%2d", x * 1);
 printf(",");
 printf(" ");
 printf("%2d", x * 2);
