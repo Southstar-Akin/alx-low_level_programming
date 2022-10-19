@@ -1,13 +1,6 @@
-#include <stdio.h>
+int _putchar(char c);
 void charm(void)
 {
 printf("_putchar");
 }
-void print_alphabet(void)
-{
-char A;
-for (A = 'a'; A <= 'z'; A++)
-{
-putchar(A);
-}
-}
+void print_alphabet(void);
