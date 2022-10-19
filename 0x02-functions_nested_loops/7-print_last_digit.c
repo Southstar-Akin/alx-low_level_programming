@@ -14,6 +14,6 @@ if (c < 0)
 c = -c;
 }
 s = (c) % 10;
-printf("%d", s);
+putchar(s);
 return (s);
 }
