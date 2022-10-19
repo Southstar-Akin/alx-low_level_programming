@@ -1,5 +1,5 @@
 #include "main.h"
-1;95;0c/**
+/**
  * jack_bauer - prints all the minutes of the day
  *
  * Return: does not return anything
@@ -10,7 +10,7 @@ int a;
 int b;
 int c;
 int d;
-for (a = 0; a <= 2 ; a++)
+for (a = 0; a <= 2; a++)
 {
 for (b = 0; b <= 9; b++)
 {
