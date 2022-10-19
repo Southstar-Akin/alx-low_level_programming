@@ -14,5 +14,5 @@ else
 {
 result = '0';
 }
-return (result);
+return result;
 }
