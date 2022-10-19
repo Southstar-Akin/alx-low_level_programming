@@ -15,7 +15,7 @@ while (x <= 9)
 {
 if (x < 0)
 {
-x = -x
+x = -x;
 }
 _putchar(x + '0');
 _putchar(',');
