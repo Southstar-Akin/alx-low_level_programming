@@ -10,9 +10,7 @@ int a;
 int b;
 int c;
 int d;
-for (a = 0; a <= 2; a++)
-{
-if (b <= 4 && a <= 2)
+for (a = 0; a <= 2 && b <= 4; a++)
 {
 for (b = 0; b <= 9; b++)
 {
@@ -28,11 +26,6 @@ _putchar(d + '0');
 _putchar('\n');
 }
 }
-}
-}
-else
-{
-break;
 }
 }
 }
