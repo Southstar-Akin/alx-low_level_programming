@@ -10,7 +10,7 @@ int h = 00;
 int mi = 00;
 while(h <= 24)
 {
-for(mi = 00; m <= 59; m++)
+for(mi = 00; mi <= 59; mi++)
 {
 _putchar(h);
 _putchar(':');
