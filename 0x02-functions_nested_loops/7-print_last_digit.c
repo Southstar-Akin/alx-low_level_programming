@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_last_digit - is as semantic as its name
  *@c: value of integer
@@ -14,6 +13,6 @@ if (c < 0)
 c = -c;
 }
 s = (c) % 10;
-putchar(s + '0');
+_putchar(s + '0');
 return (s);
 }
