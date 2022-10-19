@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * times_table - this is a punction tha prints the times table
@@ -12,7 +13,11 @@ for (t = 0; t <= 9; t++)
 {
 while (x <= 9)
 {
-_putchar((x * 0) + '0');
+if (x < 0)
+{
+x = -x
+}
+_putchar(x + '0');
 _putchar(',');
 _putchar(' ');
 _putchar((x * 1) + '0');
@@ -42,6 +47,6 @@ _putchar(' ');
 _putchar((x * 9) + '0');
 x++;
 }
-_putchar('\n');
+printf("\n");
 }
 }
