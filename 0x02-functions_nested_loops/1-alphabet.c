@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - run the code
- * don't fo
+ * print_alphabet - prints the alphabets
  * Return: alwasy return 0
  */
 void print_alphabet(void)
