@@ -10,7 +10,7 @@ int a = 0;
 int b;
 int c;
 int d;
-while (a <= 2 && b <=4;)
+while (a <= 2 && b <=4)
 {
 for (b = 0; b <= 9; b++)
 {
