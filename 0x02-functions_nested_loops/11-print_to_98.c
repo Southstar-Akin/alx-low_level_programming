@@ -13,11 +13,11 @@ while (n <= 98)
 {
 if (n < 98)
 {
-printf("%2d", n);
+printf("%2d, ", n);
 }
 else
 {
-printf("%2d, ", n);
+printf("%2d", n);
 }
 n++;
 }
@@ -26,15 +26,15 @@ else
 {
 while (n >= 98)
 {
-if (n == 98 + 1)
-{
-printf("%2d", n);
-}
-else
+if (n > 98)
 {
 printf("%2d, ", n);
 }
-n++;
+else
+{
+printf("%2d", n);
+}
+n--;
 }
 }
 }
