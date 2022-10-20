@@ -37,6 +37,6 @@ printf("%2d", n);
 }
 n--;
 }
-printf("n");
+printf("\n");
 }
 }
