@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _isalpha - you know the vibes man
+ * _isdigit - you know the vibes man
  * @c: this returns nice things
  *
  * Return: this retuns an interger 1/0
