@@ -1,10 +1,10 @@
-#include <ctype.h>
 #include "main.h"
+#include <ctype.h>
 /**
- * _isupper - checks if character is uppercase
- * @c: is the character
+ * _isupper - you know the vibes man
+ * @c: this returns nice things
  *
- * Return: 1 for true, 0 for fals
+ * Return: this retuns an interger 1/0
  */
 int _isupper(int c)
 {
