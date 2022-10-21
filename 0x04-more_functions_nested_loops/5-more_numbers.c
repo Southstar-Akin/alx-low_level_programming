@@ -7,12 +7,14 @@
  */
 void more_numbers(void)
 {
-for (a = 0; a < 10; a++)
+int a = 0;
+while (a < 10)
 {
 for (b = 0; b <= 14; b++)
 {
 printf("%d", b);
 }
 _putchar('\n');
+a++;
 }
 }
