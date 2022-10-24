@@ -11,7 +11,6 @@ void rev_string(char *s)
 {
 int i;
 i = strlen(s) - 1;
-*s = s[i];
 while (i >= 0)
 {
 if (i != 0)
@@ -22,5 +21,6 @@ else
 {
 break;
 }
+*s = s[i];
 }
 }
