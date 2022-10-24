@@ -15,11 +15,11 @@ while (i >= 0)
 {
 if (i > 0)
 {
-printf("%d", s[i]);
+printf("%c", s[i]);
 }
 else
 {
-printf("%d\n", s[i]);
+printf("%c\n", s[i]);
 }
 i--;
 }
