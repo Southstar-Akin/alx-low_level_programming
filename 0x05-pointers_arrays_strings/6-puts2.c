@@ -21,11 +21,11 @@ else
 {
 if (j != s - 1)
 {
-printf("%c", s);
+printf("%c", s[j]);
 }
 else
 {
-printf("%c\n", s);
+printf("%c\n", s[j]);
 }
 }
 j++;
