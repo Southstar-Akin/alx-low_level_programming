@@ -11,7 +11,7 @@ void print_rev(char *s)
 {
 int i;
 i = strlen(s);
-while (i > 0)
+while (i => 0)
 {
 if (i > 0)
 {
@@ -19,7 +19,7 @@ printf("%c", s[i]);
 }
 else
 {
-printf("%c\n", s[i]);
+printf("\n", s[i]);
 }
 i--;
 }
