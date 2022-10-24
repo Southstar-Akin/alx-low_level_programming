@@ -10,8 +10,9 @@
 void print_rev(char *s)
 {
 int i;
-i = strlen(s);
-while (i >= 0)
+i = strlen(s) - 1;
+int j = 0;
+while (j <= i)
 {
 if (i > 0)
 {
@@ -19,7 +20,7 @@ printf("%c", s[i]);
 }
 else
 {
-printf("\n");
+printf("%c\n", s[i]);
 }
 i--;
 }
