@@ -13,7 +13,7 @@ int s = strlen(str);
 int j = 0;
 while (j <= s)
 {
-if(s % 2 == 0)
+if(s % 2 != 0)
 {
 continue;
 }
