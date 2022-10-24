@@ -19,7 +19,7 @@ printf("%c", s[i]);
 }
 else
 {
-printf(" %c\n", s[i]);
+printf("%c\n", s[i]);
 }
 i--;
 }
