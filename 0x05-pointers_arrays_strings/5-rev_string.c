@@ -11,16 +11,15 @@ void rev_string(char *s)
 {
 int i;
 i = strlen(s) - 1;
+*s = s[i]
 while (i >= 0)
 {
 if (i != 0)
 {
-printf("%c", s[i]);
 i--;
 }
 else
 {
-printf("%c", s[i]);
 break;
 }
 }
