@@ -9,5 +9,18 @@
  */
 void print_rev(char *s)
 {
-printf("%s\n", strrev(s));
+int i;
+i = strlen(s) - 1;
+while (i >= 0)
+{
+if (i > 0)
+{
+printf("%d", s[i]);
+}
+else
+{
+printf("%d\n", s[i]);
+}
+i--;
+}
 }
