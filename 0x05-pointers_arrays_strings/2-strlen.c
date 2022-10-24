@@ -8,7 +8,8 @@
  */
 int _strlen(char *s)
 {
+const char a = *s;
 int result;
-result = strlen(char *s);
+result = strlen(a);
 return (result);
 }
