@@ -6,10 +6,9 @@
  *
  * Return: returns the lenght of the string
  */
-int _strlen(char *s)
+int _strlen(char s)
 {
-const char a = *s;
 int result;
-result = strlen(a);
+result = strlen(s);
 return (result);
 }
