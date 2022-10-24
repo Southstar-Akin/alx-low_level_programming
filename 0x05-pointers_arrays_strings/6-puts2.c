@@ -28,6 +28,6 @@ else
 printf("%c\n", str[j]);
 }
 }
-j++;
+j2++;
 }
 }
