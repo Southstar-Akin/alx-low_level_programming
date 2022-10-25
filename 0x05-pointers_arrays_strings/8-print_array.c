@@ -13,6 +13,7 @@ while (k <= n)
 if (k != n)
 {
 printf("%d, ", a[k]);
+k++;
 }
 else
 {
