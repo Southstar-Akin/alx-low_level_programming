@@ -1,33 +1,30 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 /**
- * puts2 - prints every other cahracter in string
- * @str: string param
- *
- * Return: void
+ * puts_half - prints half of a string
+ * followed by a new line
+ * @str: string to be printed
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
-int s = strlen(str);
-int j = 0;
-while (j <= s)
+int len, n, i;
+len = 0;
+while (str[len] != '\0')
 {
-if(j % 2 != 0)
-{
-continue;
+len++;
 }
-else
+if (len % 2 == 0)
 {
-if (j != s - 1)
+for (i = len / 2; str[i] != '\0'; i++)
 {
-printf("%c", str[j]);
-}
-else
-{
-printf("%c\n", str[j]);
+_putchar(str[i]);
 }
 }
-j += 2;
+else if (len % 2)
+{
+ for (n = (len - 1) / 2; n < len - 1; n++)
+{
+_putchar(str[n + 1]);
 }
+}
+_putchar('\n');
 }
