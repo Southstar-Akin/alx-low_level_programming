@@ -10,7 +10,7 @@ void print_array(int *a, int n)
 int k = 0;
 while (k <= n - 1)
 {
-if (k != n)
+if (k < n - 1)
 {
 printf("%d, ", a[k]);
 k++;
