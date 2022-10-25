@@ -18,6 +18,8 @@ k++;
 else
 {
 printf("%d", a[k]);
+k++;
+break;
 }
 }
 printf("\n");
