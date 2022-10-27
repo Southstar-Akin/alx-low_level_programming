@@ -1,16 +1,24 @@
-#include "main.h"
-#include <string.h>
-#include <stdio.h>
+#include "holberton.h"
 /**
- * _strcat - concantenates dtrings
- * @dest: fisrt param
- * @src: second param
+ * _strcat - concatenates two strings
+ * @dest: string to append to
+ * @src: string to add
  *
- * Return: concatenated string
+ * Return: a pointer to the resulting string
  */
 char *_strcat(char *dest, char *src)
 {
-strcat(dest, src);
-dest[strlen(dest) - 1] = NULL;
+int i, j;
+i = 0;
+j = 0;
+while (dest[i] != '\0')
+i++;
+while (src[j] != '\0')
+{
+dest[i] = src[j];
+j++;
+i++;
+}
+dest[i] = '\0';
 return (dest);
 }
