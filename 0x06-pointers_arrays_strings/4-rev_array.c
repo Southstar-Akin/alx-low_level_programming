@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * reverse_array - prints array in reverse
@@ -13,16 +14,16 @@ while (i => 0)
 {
 if (i != 0)
 {
-_putchar(a[i]);
-_putchar(',');
-_putchar(' ');
+printf("%d", a[i]);
+printf(",");
+printf(" ");
 i--;
 }
 else
 {
-_putchar(a[i]);
+printf("%d", a[i]);
 i--;
 }
-_putchar('\n');
+printf("\n");
 }
 }
