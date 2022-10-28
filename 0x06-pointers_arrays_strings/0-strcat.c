@@ -7,7 +7,7 @@
  *
  * Return: concatenated string
  */
-char _strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 strcat(dest, src);
 dest[strlen(dest) - 1] = '\0';
