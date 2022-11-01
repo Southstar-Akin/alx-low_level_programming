@@ -9,7 +9,13 @@
  */
 char *_strchr(char *s, char c)
 {
-char res[];
-res = strchr(s, c);
-return (res);
+strchr(s, c);
+yif (strchr(s, c))
+{
+return (0);
+}
+else
+{
+return (NULL);
+}
 }
