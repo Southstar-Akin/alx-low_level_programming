@@ -10,7 +10,7 @@
 char *_strchr(char *s, char c)
 {
 strchr(s, c);
-yif (strchr(s, c))
+if (strchr(s, c))
 {
 return (0);
 }
