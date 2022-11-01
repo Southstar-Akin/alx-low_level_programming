@@ -7,8 +7,15 @@
  *
  * Return: 0 or null(if unsucessful)
  */
-char *_strpbrk(char *s, char c)
+char *_strpbrk(char *s, char *accept)
 {
-char *res = strpbrk(s, c);
+char *res = strpbrk(s, accept);
+if (res != NULL)
+{
+return (s);
+}
+else
+{
 return (res);
+}
 }
