@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * *memcpy - copies n values of src to dest
+ * *_memcpy - copies n values of src to dest
  * @dest: pointer
  * @src: pointer
  * @n: var
