@@ -3,7 +3,7 @@
 /**
  * *_strpbrk - searches for cahracter c in string
  * @s: param
- * @c: param
+ * @accept: param
  *
  * Return: 0 or null(if unsucessful)
  */
