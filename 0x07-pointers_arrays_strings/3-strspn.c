@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strspn - function the searches and returns the number of matching bytes in 2 string
+ * _strspn - function the searches and returns the numbe
  * @s: param
  * @accept: param
  *
