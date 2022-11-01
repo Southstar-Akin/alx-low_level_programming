@@ -9,8 +9,8 @@
  */
 char *_strchr(char *s, char c)
 {
-strchr(s, c);
-if (strchr(s, c))
+char *res = strchr(s, c);
+if (res != NULL)
 {
 return (0);
 }
