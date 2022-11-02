@@ -14,13 +14,6 @@ for (j = 0; j < 8; j++)
 {
 _putchar(a[i][j]);
 }
-if (i < 7)
-{
 _putchar('\n');
-}
-else
-{
-break;
-}
 }
 }
