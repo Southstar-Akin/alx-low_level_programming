@@ -1,6 +1,5 @@
 #include "main.h"
 #include <string.h>
-#include <stdio.h>
 /**
  * _print_rev_recursion - reverses a string
  * @s: param
@@ -13,7 +12,7 @@ int le = strlen(s) - 1;
 int i;
 for (i = 0; le > i; le--)
 {
-printf("%c", s[le]);
+_putchar(s[le]);
 }
-printf("\n");
+_putchar('\n');
 }
