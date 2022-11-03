@@ -11,7 +11,7 @@ if (n % 1 == 0 && n % n == 0)
 {
 return (1);
 }
-else
+ else if (n < 0 || n == 1)
 {
 return (0);
 }
