@@ -1,0 +1,21 @@
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
+/**
+ * main - prints the file name
+ * @argc: first param
+ * @argv: second param
+ *
+ */
+int main(int argc, char* argv[])
+{
+int i;
+int nam = strlen(argv[0]);
+(void)argc;
+for (i = 2; i < nam; i++)
+{
+printf("%s", argv[i]);
+}
+printf("\n");
+return (0);
+}
